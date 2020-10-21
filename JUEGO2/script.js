@@ -198,15 +198,15 @@
         //ctx.fillText('Last Press: ' + lastPress, 0, 20);
         
         // Draw score
-        ctx.fillText('Score: ' + score, 0, 10);
+        ctx.fillText('Puntaje: ' + score, 0, 10);
         
         // Draw pause
         if (pause) {
             ctx.textAlign = 'center';
             if (gameover) {
-                ctx.fillText('GAME OVER', 150, 75);
+                ctx.fillText('GAME OVER', 300, 100);
             } else {
-                ctx.fillText('PAUSE', 150, 75);
+                ctx.fillText('Pausa', 300, 100);
             }
             ctx.textAlign = 'left';
         }
